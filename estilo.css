@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    background-color: rgb(28, 150, 103);
+    grid-template-columns:repeat(3,100px 2fr 200px);
+   
+}
+
+.container2{
+    display: grid;
+    background-color: rgb(6, 82, 197);
+    grid-template-columns:repeat(auto-fill,200px);
+    margin-top:50px;
+   
+}
+
+
+
+.item{
+    background-color:rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(163, 84, 84);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:rgb(77, 41, 161);
+}
